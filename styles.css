@@ -1,0 +1,19 @@
+:root {
+    --edge-thickness: 6px;
+}
+
+.button {
+    background-color: gray;
+    width: 100px;
+    height: 80px;
+    border-left: var(--edge-thickness) solid lightgray;
+    border-top: var(--edge-thickness) solid lightgray;
+    border-right: var(--edge-thickness) solid black;
+    border-bottom: var(--edge-thickness) solid black;
+}
+.button:active {
+    border-right: var(--edge-thickness) solid lightgray;
+    border-bottom: var(--edge-thickness) solid lightgray;
+    border-left: var(--edge-thickness) solid black;
+    border-top: var(--edge-thickness) solid black;
+}
