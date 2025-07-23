@@ -1,0 +1,10 @@
+:root {
+    --color: green;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: var(--color);
+}
+
