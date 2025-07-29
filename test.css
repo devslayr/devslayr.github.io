@@ -1,16 +1,7 @@
-.box1 {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-    background-color: #00e1ff;
-    position: absolute;
-    top: 60px;
-}
-.box2 {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    position: relative;
-    top: 50px;
+.test {
+    width: 5px;
+    height: 5px;
+    border-right: 200px solid black;
+    border-left: 200px solid black;
+    border-top: 400px solid cyan;
 }
