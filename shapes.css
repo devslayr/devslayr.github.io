@@ -1,25 +1,55 @@
 :root {
-    --color: green;
+    --margin: 20px;
 }
 
+div {
+    display: inline-block;
+    margin: var(--margin);
+}
 .rectangle {
     width: 200px;
     height: 100px;
-    background-color: var(--color);
+    background-color: red;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
 }
 
 .circle {
-    background-color: var(--color);
+    background-color: yellow;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-.triangle {
+.oval {
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.triangle-up {
     width: 0;
     height: 0;
     border-left:70px solid transparent;
     border-right: 70px solid transparent;
-    border-bottom: 150px solid var(--color);
+    border-bottom: 150px solid cyan;
 }
 
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 150px solid plum;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    
+}
