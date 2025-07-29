@@ -8,3 +8,18 @@
     background-color: var(--color);
 }
 
+.circle {
+    background-color: var(--color);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left:70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 150px solid var(--color);
+}
+
