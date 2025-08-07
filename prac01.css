@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(249, 239, 241);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.subscription {
+    border: 1px solid white;
+    background-color: white;
+    margin: 4px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
