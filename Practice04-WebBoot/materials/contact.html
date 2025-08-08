@@ -5,11 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><!-- Your title here --></title>
+  <title>Cafe's Contact Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!-- Your body content here -->
+   <header>
+    <h1>My RMIT Cafe</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+   </header>
+
+   <h1 class="HeadingContact">Contact me</h1>
+
+   <main id="contact">
+    <form action="contact.html" method="POST">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="8" cols="50" name="comment" required></textarea>
+      </div>
+      <input type="submit" value="Send">
+    </form>
+   </main>
+
+   <footer>
+    <p>Created by <b>Nguyen Minh Duc</b>! 🚀🚀🚀</p>
+   </footer>
 </body>
 
 </html>

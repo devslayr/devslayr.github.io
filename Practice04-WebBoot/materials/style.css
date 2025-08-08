@@ -1,1 +1,147 @@
 /* Your stylings here */
+
+html {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(24, 21, 185, 0.2);
+    border-radius: 10px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+header > h1 {
+    padding-left: 20px;
+}
+
+li {
+    margin-right: 25px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(24, 21, 185, 0.7);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 480px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 46vh;
+}
+
+tr > th {
+    color: white;
+    background-color: rgba(36, 21, 203, 0.963);
+}
+
+#aboutme {
+    grid-area: about;
+}
+
+#menu {
+    grid-area: drinks;
+}
+
+#coffee {
+    grid-area: coffee;
+}
+
+#tea {
+    grid-area: tea;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'about drinks'
+        'coffee tea';
+    gap: 20px;
+    }
+
+    table {
+        width: 100%;
+        height: 39vh;
+    }
+}
+
+.HeadingContact {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rgba(20, 20, 235, 0.7);
+    margin-top: 14px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(20, 20, 235, 0.9);
+}
